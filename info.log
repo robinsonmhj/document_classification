@@ -1,0 +1,446 @@
+2019-08-16 22:44:52,949 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:22:34,186 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:23:05,838 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:30:10,139 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:31:03,195 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:33:00,624 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:37:21,139 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:43:06,086 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:43:42,074 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:45:32,292 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:54:53,555 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:56:36,252 __main__ INFO:RandomForestClassifier starts
+2019-08-16 23:58:27,717 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:05:07,268 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:05:27,996 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:06:04,733 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:07:43,234 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:09:05,011 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:17:47,276 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:18:37,017 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:19:27,916 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:19:47,641 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:21:00,774 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:21:34,041 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:22:13,738 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:23:30,986 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:24:29,743 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:25:44,429 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:25:46,666 __main__ INFO:MultinomialNB starts
+2019-08-17 00:25:46,826 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:26:00,420 __main__ INFO:SGDClassifier starts
+2019-08-17 00:26:02,686 __main__ INFO:LogisticRegression starts
+2019-08-17 00:26:03,316 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.473373
+1   RandomForestClassifier         1  0.438438
+2   RandomForestClassifier         2  0.474164
+3            MultinomialNB         0  0.550296
+4            MultinomialNB         1  0.519520
+5            MultinomialNB         2  0.525836
+6     KNeighborsClassifier         0  0.671598
+7     KNeighborsClassifier         1  0.666667
+8     KNeighborsClassifier         2  0.647416
+9            SGDClassifier         0  0.772189
+10           SGDClassifier         1  0.717718
+11           SGDClassifier         2  0.680851
+12      LogisticRegression         0  0.698225
+13      LogisticRegression         1  0.660661
+14      LogisticRegression         2  0.680851
+2019-08-17 00:26:03,670 __main__ INFO:start to find the best params
+2019-08-17 00:27:15,512 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:27:17,772 __main__ INFO:MultinomialNB starts
+2019-08-17 00:27:17,917 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:27:31,633 __main__ INFO:SGDClassifier starts
+2019-08-17 00:27:33,904 __main__ INFO:LogisticRegression starts
+2019-08-17 00:27:34,555 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.473373
+1   RandomForestClassifier         1  0.438438
+2   RandomForestClassifier         2  0.474164
+3            MultinomialNB         0  0.550296
+4            MultinomialNB         1  0.519520
+5            MultinomialNB         2  0.525836
+6     KNeighborsClassifier         0  0.671598
+7     KNeighborsClassifier         1  0.666667
+8     KNeighborsClassifier         2  0.647416
+9            SGDClassifier         0  0.772189
+10           SGDClassifier         1  0.717718
+11           SGDClassifier         2  0.680851
+12      LogisticRegression         0  0.698225
+13      LogisticRegression         1  0.660661
+14      LogisticRegression         2  0.680851
+2019-08-17 00:27:34,925 __main__ INFO:start to find the best params
+2019-08-17 00:28:21,596 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:28:25,371 __main__ INFO:MultinomialNB starts
+2019-08-17 00:28:25,971 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:29:25,238 __main__ INFO:SGDClassifier starts
+2019-08-17 00:29:35,101 __main__ INFO:LogisticRegression starts
+2019-08-17 00:29:36,756 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.434911
+1   RandomForestClassifier         1  0.417417
+2   RandomForestClassifier         2  0.407295
+3            MultinomialNB         0  0.411243
+4            MultinomialNB         1  0.387387
+5            MultinomialNB         2  0.404255
+6     KNeighborsClassifier         0  0.647929
+7     KNeighborsClassifier         1  0.642643
+8     KNeighborsClassifier         2  0.641337
+9            SGDClassifier         0  0.766272
+10           SGDClassifier         1  0.735736
+11           SGDClassifier         2  0.644377
+12      LogisticRegression         0  0.686391
+13      LogisticRegression         1  0.666667
+14      LogisticRegression         2  0.665653
+2019-08-17 00:29:37,128 __main__ INFO:start to find the best params
+2019-08-17 00:29:53,621 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:29:57,553 __main__ INFO:MultinomialNB starts
+2019-08-17 00:29:58,144 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:30:57,509 __main__ INFO:SGDClassifier starts
+2019-08-17 00:31:07,185 __main__ INFO:LogisticRegression starts
+2019-08-17 00:31:08,699 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.434911
+1   RandomForestClassifier         1  0.417417
+2   RandomForestClassifier         2  0.407295
+3            MultinomialNB         0  0.411243
+4            MultinomialNB         1  0.387387
+5            MultinomialNB         2  0.404255
+6     KNeighborsClassifier         0  0.647929
+7     KNeighborsClassifier         1  0.642643
+8     KNeighborsClassifier         2  0.641337
+9            SGDClassifier         0  0.766272
+10           SGDClassifier         1  0.735736
+11           SGDClassifier         2  0.644377
+12      LogisticRegression         0  0.686391
+13      LogisticRegression         1  0.666667
+14      LogisticRegression         2  0.665653
+2019-08-17 00:31:09,059 __main__ INFO:start to find the best params
+2019-08-17 00:33:39,324 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:33:43,182 __main__ INFO:MultinomialNB starts
+2019-08-17 00:33:43,826 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:34:43,009 __main__ INFO:SGDClassifier starts
+2019-08-17 00:34:52,833 __main__ INFO:LogisticRegression starts
+2019-08-17 00:34:54,402 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.434911
+1   RandomForestClassifier         1  0.417417
+2   RandomForestClassifier         2  0.407295
+3            MultinomialNB         0  0.411243
+4            MultinomialNB         1  0.387387
+5            MultinomialNB         2  0.404255
+6     KNeighborsClassifier         0  0.647929
+7     KNeighborsClassifier         1  0.642643
+8     KNeighborsClassifier         2  0.641337
+9            SGDClassifier         0  0.766272
+10           SGDClassifier         1  0.735736
+11           SGDClassifier         2  0.644377
+12      LogisticRegression         0  0.686391
+13      LogisticRegression         1  0.666667
+14      LogisticRegression         2  0.665653
+2019-08-17 00:34:54,779 __main__ INFO:start to find the best params
+2019-08-17 00:39:13,565 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:39:17,393 __main__ INFO:MultinomialNB starts
+2019-08-17 00:39:17,997 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:40:17,730 __main__ INFO:SGDClassifier starts
+2019-08-17 00:40:27,581 __main__ INFO:LogisticRegression starts
+2019-08-17 00:40:29,136 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.434911
+1   RandomForestClassifier         1  0.417417
+2   RandomForestClassifier         2  0.407295
+3            MultinomialNB         0  0.411243
+4            MultinomialNB         1  0.387387
+5            MultinomialNB         2  0.404255
+6     KNeighborsClassifier         0  0.647929
+7     KNeighborsClassifier         1  0.642643
+8     KNeighborsClassifier         2  0.641337
+9            SGDClassifier         0  0.766272
+10           SGDClassifier         1  0.735736
+11           SGDClassifier         2  0.644377
+12      LogisticRegression         0  0.686391
+13      LogisticRegression         1  0.666667
+14      LogisticRegression         2  0.665653
+2019-08-17 00:40:29,504 __main__ INFO:start to find the best params
+2019-08-17 00:41:17,893 __main__ INFO:Finished finding the best params
+2019-08-17 00:41:17,893 __main__ INFO:classifier__C:1000.0
+2019-08-17 00:41:17,893 __main__ INFO:classifier__penalty:l2
+2019-08-17 00:46:19,131 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:46:21,202 __main__ INFO:MultinomialNB starts
+2019-08-17 00:46:21,310 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:46:21,397 __main__ INFO:SGDClassifier starts
+2019-08-17 00:46:21,539 __main__ INFO:LogisticRegression starts
+2019-08-17 00:46:22,777 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.423077
+1   RandomForestClassifier         1  0.400000
+2   RandomForestClassifier         2  0.398438
+3   RandomForestClassifier         3  0.450820
+4   RandomForestClassifier         4  0.478992
+5            MultinomialNB         0  0.376923
+6            MultinomialNB         1  0.361538
+7            MultinomialNB         2  0.375000
+8            MultinomialNB         3  0.418033
+9            MultinomialNB         4  0.445378
+10    KNeighborsClassifier         0  0.623077
+11    KNeighborsClassifier         1  0.630769
+12    KNeighborsClassifier         2  0.539062
+13    KNeighborsClassifier         3  0.655738
+14    KNeighborsClassifier         4  0.638655
+15           SGDClassifier         0  0.761538
+16           SGDClassifier         1  0.707692
+17           SGDClassifier         2  0.664062
+18           SGDClassifier         3  0.754098
+19           SGDClassifier         4  0.764706
+20      LogisticRegression         0  0.630769
+21      LogisticRegression         1  0.623077
+22      LogisticRegression         2  0.593750
+23      LogisticRegression         3  0.680328
+24      LogisticRegression         4  0.689076
+2019-08-17 00:46:23,158 __main__ INFO:start to find the best params
+2019-08-17 00:46:56,187 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:47:04,303 __main__ INFO:MultinomialNB starts
+2019-08-17 00:47:04,966 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:47:08,765 __main__ INFO:SGDClassifier starts
+2019-08-17 00:47:10,265 __main__ INFO:LogisticRegression starts
+2019-08-17 00:47:28,014 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.400800
+1   RandomForestClassifier         1  0.380800
+2   RandomForestClassifier         2  0.402566
+3   RandomForestClassifier         3  0.399678
+4   RandomForestClassifier         4  0.394503
+5            MultinomialNB         0  0.489600
+6            MultinomialNB         1  0.484000
+7            MultinomialNB         2  0.491580
+8            MultinomialNB         3  0.478646
+9            MultinomialNB         4  0.497171
+10    KNeighborsClassifier         0  0.720000
+11    KNeighborsClassifier         1  0.709600
+12    KNeighborsClassifier         2  0.724940
+13    KNeighborsClassifier         3  0.745367
+14    KNeighborsClassifier         4  0.740501
+15           SGDClassifier         0  0.832800
+16           SGDClassifier         1  0.819200
+17           SGDClassifier         2  0.832398
+18           SGDClassifier         3  0.825141
+19           SGDClassifier         4  0.845594
+20      LogisticRegression         0  0.788800
+21      LogisticRegression         1  0.754400
+22      LogisticRegression         2  0.785084
+23      LogisticRegression         3  0.792103
+24      LogisticRegression         4  0.789006
+2019-08-17 00:47:28,382 __main__ INFO:start to find the best params
+2019-08-17 00:48:20,153 __main__ INFO:Finished finding the best params
+2019-08-17 00:52:59,537 __main__ INFO:20 splits
+2019-08-17 00:53:01,443 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:53:06,863 __main__ INFO:MultinomialNB starts
+2019-08-17 00:53:07,316 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:53:08,416 __main__ INFO:SGDClassifier starts
+2019-08-17 00:53:09,150 __main__ INFO:LogisticRegression starts
+2019-08-17 00:53:17,429 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.426073
+1   RandomForestClassifier         1  0.395866
+2   RandomForestClassifier         2  0.422830
+3   RandomForestClassifier         3  0.407407
+4   RandomForestClassifier         4  0.427877
+5            MultinomialNB         0  0.454690
+6            MultinomialNB         1  0.457870
+7            MultinomialNB         2  0.464630
+8            MultinomialNB         3  0.462158
+9            MultinomialNB         4  0.473258
+10    KNeighborsClassifier         0  0.726550
+11    KNeighborsClassifier         1  0.694754
+12    KNeighborsClassifier         2  0.691318
+13    KNeighborsClassifier         3  0.726248
+14    KNeighborsClassifier         4  0.755267
+15           SGDClassifier         0  0.809221
+16           SGDClassifier         1  0.806041
+17           SGDClassifier         2  0.813505
+18           SGDClassifier         3  0.787440
+19           SGDClassifier         4  0.820097
+20      LogisticRegression         0  0.758347
+21      LogisticRegression         1  0.736089
+22      LogisticRegression         2  0.763666
+23      LogisticRegression         3  0.747182
+24      LogisticRegression         4  0.777958
+2019-08-17 00:53:17,821 __main__ INFO:start to find the best params
+2019-08-17 00:59:00,184 __main__ INFO:Finished finding the best params
+2019-08-17 00:59:00,185 __main__ INFO:classifier__C:10.0
+2019-08-17 00:59:00,216 __main__ INFO:19 splits
+2019-08-17 00:59:02,272 __main__ INFO:RandomForestClassifier starts
+2019-08-17 00:59:07,920 __main__ INFO:MultinomialNB starts
+2019-08-17 00:59:08,357 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 00:59:09,638 __main__ INFO:SGDClassifier starts
+2019-08-17 00:59:10,443 __main__ INFO:LogisticRegression starts
+2019-08-17 00:59:19,834 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.405446
+1   RandomForestClassifier         1  0.420334
+2   RandomForestClassifier         2  0.401216
+3   RandomForestClassifier         3  0.444104
+4   RandomForestClassifier         4  0.424615
+5            MultinomialNB         0  0.447806
+6            MultinomialNB         1  0.456753
+7            MultinomialNB         2  0.472644
+8            MultinomialNB         3  0.477795
+9            MultinomialNB         4  0.481538
+10    KNeighborsClassifier         0  0.729198
+11    KNeighborsClassifier         1  0.720789
+12    KNeighborsClassifier         2  0.738602
+13    KNeighborsClassifier         3  0.747320
+14    KNeighborsClassifier         4  0.733846
+15           SGDClassifier         0  0.812405
+16           SGDClassifier         1  0.811836
+17           SGDClassifier         2  0.796353
+18           SGDClassifier         3  0.819296
+19           SGDClassifier         4  0.807692
+20      LogisticRegression         0  0.750378
+21      LogisticRegression         1  0.746586
+22      LogisticRegression         2  0.752280
+23      LogisticRegression         3  0.751914
+24      LogisticRegression         4  0.753846
+2019-08-17 00:59:20,154 __main__ INFO:start to find the best params
+2019-08-17 01:04:52,299 __main__ INFO:Finished finding the best params
+2019-08-17 01:04:52,299 __main__ INFO:classifier__C:10.0
+2019-08-17 01:04:52,327 __main__ INFO:18 splits
+2019-08-17 01:04:54,362 __main__ INFO:RandomForestClassifier starts
+2019-08-17 01:04:59,255 __main__ INFO:MultinomialNB starts
+2019-08-17 01:04:59,662 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 01:05:00,858 __main__ INFO:SGDClassifier starts
+2019-08-17 01:05:01,609 __main__ INFO:LogisticRegression starts
+2019-08-17 01:05:11,164 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.398281
+1   RandomForestClassifier         1  0.395683
+2   RandomForestClassifier         2  0.417027
+3   RandomForestClassifier         3  0.392754
+4   RandomForestClassifier         4  0.418367
+5            MultinomialNB         0  0.446991
+6            MultinomialNB         1  0.447482
+7            MultinomialNB         2  0.490620
+8            MultinomialNB         3  0.446377
+9            MultinomialNB         4  0.467930
+10    KNeighborsClassifier         0  0.719198
+11    KNeighborsClassifier         1  0.748201
+12    KNeighborsClassifier         2  0.711400
+13    KNeighborsClassifier         3  0.714493
+14    KNeighborsClassifier         4  0.731778
+15           SGDClassifier         0  0.820917
+16           SGDClassifier         1  0.818705
+17           SGDClassifier         2  0.809524
+18           SGDClassifier         3  0.798551
+19           SGDClassifier         4  0.810496
+20      LogisticRegression         0  0.759312
+21      LogisticRegression         1  0.781295
+22      LogisticRegression         2  0.757576
+23      LogisticRegression         3  0.746377
+24      LogisticRegression         4  0.765306
+2019-08-17 01:05:11,465 __main__ INFO:start to find the best params
+2019-08-17 01:11:14,766 __main__ INFO:Finished finding the best params
+2019-08-17 01:11:14,767 __main__ INFO:classifier__C:100.0
+2019-08-17 01:11:14,794 __main__ INFO:17 splits
+2019-08-17 01:11:16,801 __main__ INFO:RandomForestClassifier starts
+2019-08-17 01:11:21,902 __main__ INFO:MultinomialNB starts
+2019-08-17 01:11:22,329 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 01:11:23,616 __main__ INFO:SGDClassifier starts
+2019-08-17 01:11:24,417 __main__ INFO:LogisticRegression starts
+2019-08-17 01:11:35,014 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.416779
+1   RandomForestClassifier         1  0.402985
+2   RandomForestClassifier         2  0.418827
+3   RandomForestClassifier         3  0.410959
+4   RandomForestClassifier         4  0.404959
+5            MultinomialNB         0  0.480379
+6            MultinomialNB         1  0.462687
+7            MultinomialNB         2  0.465211
+8            MultinomialNB         3  0.472603
+9            MultinomialNB         4  0.486226
+10    KNeighborsClassifier         0  0.715832
+11    KNeighborsClassifier         1  0.700136
+12    KNeighborsClassifier         2  0.710778
+13    KNeighborsClassifier         3  0.719178
+14    KNeighborsClassifier         4  0.747934
+15           SGDClassifier         0  0.811908
+16           SGDClassifier         1  0.786974
+17           SGDClassifier         2  0.813097
+18           SGDClassifier         3  0.828767
+19           SGDClassifier         4  0.844353
+20      LogisticRegression         0  0.764547
+21      LogisticRegression         1  0.743555
+22      LogisticRegression         2  0.743520
+23      LogisticRegression         3  0.782192
+24      LogisticRegression         4  0.785124
+2019-08-17 01:11:35,322 __main__ INFO:start to find the best params
+2019-08-17 01:14:30,716 __main__ INFO:20 splits
+2019-08-17 01:14:32,471 __main__ INFO:RandomForestClassifier starts
+2019-08-17 01:14:42,191 __main__ INFO:MultinomialNB starts
+2019-08-17 01:14:42,942 __main__ INFO:KNeighborsClassifier starts
+2019-08-17 01:14:44,178 __main__ INFO:SGDClassifier starts
+2019-08-17 01:14:45,723 __main__ INFO:LogisticRegression starts
+2019-08-17 01:15:02,997 __main__ INFO:                model_name  fold_idx  accuracy
+0   RandomForestClassifier         0  0.443396
+1   RandomForestClassifier         1  0.408805
+2   RandomForestClassifier         2  0.383387
+3   RandomForestClassifier         3  0.428115
+4   RandomForestClassifier         4  0.412141
+5   RandomForestClassifier         5  0.414791
+6   RandomForestClassifier         6  0.418006
+7   RandomForestClassifier         7  0.417476
+8   RandomForestClassifier         8  0.448052
+9   RandomForestClassifier         9  0.421053
+10           MultinomialNB         0  0.465409
+11           MultinomialNB         1  0.471698
+12           MultinomialNB         2  0.440895
+13           MultinomialNB         3  0.472843
+14           MultinomialNB         4  0.472843
+15           MultinomialNB         5  0.459807
+16           MultinomialNB         6  0.463023
+17           MultinomialNB         7  0.472492
+18           MultinomialNB         8  0.503247
+19           MultinomialNB         9  0.463816
+20    KNeighborsClassifier         0  0.688679
+21    KNeighborsClassifier         1  0.757862
+22    KNeighborsClassifier         2  0.670927
+23    KNeighborsClassifier         3  0.696486
+24    KNeighborsClassifier         4  0.709265
+25    KNeighborsClassifier         5  0.688103
+26    KNeighborsClassifier         6  0.707395
+27    KNeighborsClassifier         7  0.750809
+28    KNeighborsClassifier         8  0.724026
+29    KNeighborsClassifier         9  0.756579
+30           SGDClassifier         0  0.786164
+31           SGDClassifier         1  0.836478
+32           SGDClassifier         2  0.795527
+33           SGDClassifier         3  0.801917
+34           SGDClassifier         4  0.814696
+35           SGDClassifier         5  0.816720
+36           SGDClassifier         6  0.778135
+37           SGDClassifier         7  0.805825
+38           SGDClassifier         8  0.811688
+39           SGDClassifier         9  0.815789
+40      LogisticRegression         0  0.723270
+41      LogisticRegression         1  0.786164
+42      LogisticRegression         2  0.728435
+43      LogisticRegression         3  0.738019
+44      LogisticRegression         4  0.779553
+45      LogisticRegression         5  0.762058
+46      LogisticRegression         6  0.729904
+47      LogisticRegression         7  0.770227
+48      LogisticRegression         8  0.785714
+49      LogisticRegression         9  0.786184
+2019-08-17 01:15:03,366 __main__ INFO:start to find the best params
+2019-08-17 22:46:11,004 __main__ INFO:begin to read pickle file
+2019-08-17 22:46:12,880 __main__ INFO:finished reading pickle file
+2019-08-17 22:46:59,179 __main__ INFO:begin to read pickle file
+2019-08-17 22:47:00,968 __main__ INFO:finished reading pickle file
+2019-08-17 22:48:11,641 __main__ INFO:begin to read pickle file
+2019-08-17 22:48:13,434 __main__ INFO:finished reading pickle file
+2019-08-17 22:50:13,004 __main__ INFO:begin to read pickle file
+2019-08-17 22:50:14,783 __main__ INFO:finished reading pickle file
+2019-08-17 22:52:14,276 __main__ INFO:begin to read pickle file
+2019-08-17 22:52:16,131 __main__ INFO:finished reading pickle file
+2019-08-17 22:57:59,991 __main__ INFO:begin to read pickle file
+2019-08-17 23:00:49,022 __main__ INFO:begin to read pickle file
+2019-08-17 23:01:01,103 __main__ INFO:finished reading pickle file
+2019-08-17 23:05:13,864 __main__ INFO:predicted result is 
+2019-08-18 13:09:40,271 __main__ INFO:begin to read pickle file
+2019-08-18 13:09:51,864 __main__ INFO:finished reading pickle file
+2019-08-18 13:09:51,910 __main__ INFO:predicted result is 
+2019-08-18 13:17:47,855 __main__ INFO:begin to read pickle file
+2019-08-18 13:18:00,315 __main__ INFO:finished reading pickle file
+2019-08-18 13:18:00,524 __main__ INFO:predicted result is 
+2019-08-18 13:29:01,287 __main__ INFO:begin to read pickle file
+2019-08-18 13:29:14,203 __main__ INFO:finished reading pickle file
+2019-08-18 13:29:14,414 __main__ INFO:predicted result is 

@@ -1,0 +1,25 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: ssl
+  version: latest
+
+handlers:
+- url: /static
+  static_dir: static
+- url: /.*
+  script: main.app
+
+manual_scaling:
+  instances: 1 
+ 
+skip_files:
+-  document.tar.gz
+-  data.csv
+-  error.log
+-  info.log
+-  ^(.*/)?.*\.csv$
+-  ^(.*/)?.*\.pickle$
+-  ^(.*/)?.*\.bak$

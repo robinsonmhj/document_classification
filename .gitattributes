@@ -1,0 +1,7 @@
+data.csv filter=lfs diff=lfs merge=lfs -text
+sample.csv filter=lfs diff=lfs merge=lfs -text
+smaller_trainning.csv filter=lfs diff=lfs merge=lfs -text
+testing_data.csv filter=lfs diff=lfs merge=lfs -text
+training_data.csv filter=lfs diff=lfs merge=lfs -text
+smaller_trainning.tar.gz filter=lfs diff=lfs merge=lfs -text
+pickle.tar.gz filter=lfs diff=lfs merge=lfs -text
